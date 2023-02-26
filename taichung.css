@@ -1,0 +1,143 @@
+/* Setting content extents relative to screen */
+#container {
+    background-color: white;
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+/* Setting flex box to organise content in a row */
+.flex1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 75vw;
+}
+.flex4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 35vw;
+    margin: 0 auto;
+}
+.grid3 {
+    margin: 0 auto;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.text-object {
+    width: 1fr;
+}
+.text-margin{
+    margin: 10px;
+}
+.flex{
+    display: flex;
+    width: 75vw;
+    margin: 0 auto;
+}
+.flex2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    justify-items: flex-start;
+    width: 35vw;
+    margin: 0 auto;
+}
+.fig-cap{
+    margin: 0;
+    margin-top: 8px;
+}
+/* Setting out images/figures */
+#image1 {
+    width: 35vw;
+    margin-left: 50px;
+    object-position: 35% 60%;
+    object-fit: contain;
+}
+.bannerImg1 {
+    width: 65vw;
+    height: 800px;
+    object-fit: cover;
+}
+.bannerImg2 {
+    width: 72vw;
+    height: 750;
+    object-fit:contain;
+    transform: translateX(0.5vw);
+}
+.bannerImg3 {
+    width: 65vw;
+    height: 500px;
+    object-fit: cover;
+}
+figure {
+    align-content: center;
+    align-self: center;
+}
+.vw {
+    width: 65vw;
+    align-self: center;
+}
+.im3 {
+    object-position: 65% 35%;
+}
+.im4 {
+    padding-right: 10vw;
+}
+.axo {
+    height: 20vw;
+   /* margin-right: 16px;
+    */
+    object-fit: fill;
+}
+.section {
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+}
+/* Styling tables */
+td {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgb(200, 200, 200);
+    overflow: hidden;
+}
+/* Setting out content in column */
+.flexcolumn {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.flexcolumn-75 {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 75vw;
+}
+/* Aligning text */
+.para {
+    align-self: center;
+}
+/* Styling quote layout */
+.quote {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    #intro {
+        font-size: 10px!important;
+   }
+}
+.centre-text{
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+/* Setting content extents relative to screen */
+#container {
+    background-color: white;
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+/* Setting flex box to organise content in a row */
+.flex1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 75vw;
+}
+/* Setting out images/figures */
+#image1 {
+    width: 35vw;
+    height: 500px;
+    margin-left: 50px;
+    object-position: 65% 60%;
+    object-fit: cover;
+}
+.bannerImg {
+    width: 65vw;
+    height: 550px;
+    object-fit: cover;
+}
+.bannerImg2 {
+    width: 65vw;
+    height: 550px;
+    position: relative;
+}
+figure {
+    align-content: center;
+    align-self: center;
+}
+.vw {
+    width: 65vw;
+    align-self: center;
+}
+.im3 {
+    object-position: 65% 35%;
+}
+/* */
+.im4 {
+    padding-right: 10vw;
+}
+.axo {
+    width: 30vw;
+}
+.section {
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+}
+/* Styling tables */
+td {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgb(200, 200, 200);
+    overflow: hidden;
+}
+/* Setting out content in column */
+.flexcolumn {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+}
+/* Aligning text */
+.para {
+    align-self: center;
+}
+/* Styling quote layout */
+.quote {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    #intro {
+        font-size: 10px!important;
+   }
+}
+
+/* Interactive image CSS */
+.container {
+    position: relative;
+    width: 65vw;
+    height: 750px;
+    overflow: hidden;
+    border: 2 px solid red;
+    margin: 0 auto;
+    cursor: ew-resize;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 2500px;
+    height: 750px;
+    background-image: url(images/2804_T_Long-01.jpg);
+    background-position: 50% 55%;
+    background-size: cover;
+    transform: translateX(-55%);
+    transition: all 2s ease-in-out;
+}

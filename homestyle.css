@@ -1,0 +1,166 @@
+ 
+.Yeseva{
+    font-family: 'Yeseva One', cursive;
+}
+/* Home content */
+#container {
+    background-color: white;
+    width: 75vw;
+    height: 85vh;
+    margin: 0 auto;
+    position: relative;
+}
+#background-container{
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 30px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+#homeimg {
+    width: 35%;
+    height: auto;
+}
+#arrow {
+    position: absolute;
+    height: 40vh;
+    width: auto;
+    translate: 350px -40px;
+}
+#landing {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10vh;
+}
+#hometext {
+    width: 30vw;
+}
+#secondpara {
+    padding-top: 3vh;
+}
+/* Bottom banner */
+#banner{
+    display: flex;
+    justify-items: center;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+#webContainer{
+    background-color: #FF5678;
+    width: 33.33%;
+    display: grid;
+    grid-template-rows: 180px auto auto 1fr;
+    overflow: hidden;
+}
+#archiContainer{
+    background-color: #05C8D4;
+    width: 33.33%;
+    display: grid;
+    grid-template-rows: 180px auto auto 1fr;
+    overflow: hidden;
+
+}
+#architext {
+    line-height: 20px;
+    font-size: 16px;
+}
+/* Logo */
+#archilogo {
+    max-width: 100px;
+    place-self: center;
+}
+#weblogo {
+    max-width: 100px;
+    place-self: center;
+}
+#artlogo {
+    max-width: 100px;
+    place-self: center;
+}
+#artContainer{
+    background-color:#FFD056;
+    width: 33.33%;
+    display: grid;
+    grid-template-rows: 180px auto auto 1fr;
+    overflow: hidden;
+
+}
+.text-align{
+    text-align: center;
+}
+/* Buttons */
+.btn-black {
+    border: 2px solid rgb(42, 42, 42);
+    width: 100px;
+    height: 16px;
+    padding: 10px 15px 10px 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin-top: 16px;
+}
+.btn-black:hover {
+    border: 2px solid rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.btn-black p {
+    margin: 0;
+}
+/* Arrow */
+.arrowPath{
+    transition: all 0.15s;
+}
+.btn-black:hover .arrowIcon {
+    fill: white;
+    transform: translateX(5px);
+}
+.arrowIcon{
+    height: 20px;
+    padding-left: 15px;
+    width: auto;
+    transition: all 0.15s ease-in;
+}
+/* Misc */
+.hyperlink {
+    text-decoration: none;
+}
+ul {
+    place-self: center;
+    padding: 0;
+}
+.heading{
+    margin: 10px 0 10px;
+}
+
+/* Home container */
+@media screen and (max-width: 1150px) {
+    #arrow{
+        display: none;
+   }
+   #homeimg{
+        min-width: 300px;
+        margin-bottom: 32px;
+   }
+   #landing{
+    display: flex;
+    flex-flow: column-reverse;
+   }
+   #hometext{
+        width: 100%;
+   }
+   }
+   

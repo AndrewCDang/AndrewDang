@@ -1,0 +1,89 @@
+/* Setting container extents relative to screen */
+#container {
+    background-color: white;
+    width: 75vw;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+/* Adjusting appearance of buttons greyed out indicating no links are present (wip) */
+.op50 {
+    opacity: 40%;
+}
+/* Button styling */
+.button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 12px;
+    background-color: rgb(200, 200, 200);
+    transition: all 0.2s;
+}
+.label {
+    padding: 5px 20px 5px 20px;
+    border-radius: 12px;
+}
+.yellow{
+    background-color:#FFD056;
+}
+.button-link {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+/* Making button interactive upon hover */
+.button:hover {
+    transform: scale(1.15) 
+}
+.body-container{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-container{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 4px;
+}
+/* Title Card */
+.title-card{
+    width: 15vw;
+    height: 15vw;
+    cursor: pointer;
+}
+.title-card img {
+    width: 15vw;
+    height: 15vw;
+    object-fit:cover;
+    transform: scale(1.2);
+    object-position: center -10%;
+    transition: transform 10s;
+}
+.title-card img:hover {
+    transform: scale(1.3);
+}
+.imgCaption{
+    position: absolute;
+    top: -1.8vw;
+    width: 100%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+.title-card:hover .imgCaption{
+    top: 0px;
+}
+/* Misc */
+.station{
+    object-position: 30% 50%;
+}
+.pinnedText{
+    font-size: 0.8vw;
+}

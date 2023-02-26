@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Art Home</title>
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="artstyle.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Invisible values -->
+    <a id="pageInfo" class="hidden" page="art" fullpage="Art Gallery" tag="Personal Artworks" backgroundCol="yellow-frost" imageUrl="images\artThumbnail.jpg" pageUrl="art.html"></a>
+    <!-- Navbar -->
+    <div id="nav-container">
+        <nav class="navbar">
+            <div id="navlogo">
+                <ul class="navbar-items">
+                    <li>
+                        <a  id="navLogoItem" class="hyperlink" href="index.html">
+                            <p id="logo">AD</p>
+                            <p id="logo2">works</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="translate-right" class="nav-link">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="noWrap not-allowed nav-link webBtn">Web-Dev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link archBtn"href="architecture.html">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link artBtn" href="art.html">Art</a>
+                    </li>
+                    <li class="nav-item moreButton">
+                        <a class="nav-link moreBtn">More</a>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 203 364" style="enable-background:new 0 0 203 364;" xml:space="preserve">
+                            <path class="moreIcon" d="M22,364c-5,0-11-2-15-6c-8-8-8-21,0-30l144-146L6,36c-8-8-8-21,0-30c8-8,21-8,30,0l161,161c4,4,6,9,6,15s-2,11-6,15L37,358C32,362,27,364,22,364z"/>
+                        </svg>
+                    </li>
+                    <div class="dropdown-wrap">
+                        <div class="dropdownContainer">
+                            <a class="dropdownItm contactBtn"href="contactMe.html">
+                                <svg class="contactWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 528 468" style="enable-background:new 0 0 528 468;" xml:space="preserve">
+                                    <path class="contactIcon" d="M413,420c-25,0-50-15-72-42c-1,0-1,0-2,0c-104,0-189-85-189-189S235,0,339,0s189,85,189,189c0,51-20,99-56,134
+                                    c4,31-1,58-15,76C446,412,430,420,413,420L413,420L413,420z M352,335c7,0,13,3,17,9c18,25,34,34,44,34c5,0,8-2,11-5c8-10,10-30,5-52
+                                    c-2-8,1-16,7-21c32-28,50-68,50-110c0-81-66-147-147-147s-147,66-147,147s66,147,147,147c3,0,7,0,10,0C350,335,352,335,352,335
+                                    L352,335z M96,468c-5,0-11-1-15-3c-24-8-43-37-37-84C16,353,0,314,0,274c0-64,38-120,97-143c11-4,23,1,27,12c4,11-1,23-12,27
+                                    c-42,17-70,58-70,104c0,32,14,63,38,84c1,1,2,2,3,3c4,5,6,11,4,18c-6,31,3,45,8,47c6,2,19-6,30-29c4-8,12-12,20-12c21,1,43-3,62-14
+                                    c10-6,23-2,29,8c6,10,2,23-8,29c-22,12-47,19-72,19C137,457,114,468,96,468L96,468z"/>
+                                </svg>
+                                <p class="contactText text">Contact me</p>
+                            </a>
+                            <a class="dropdownItm pinBtn"href="pinned.html">
+                                <svg class="navPinWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                    <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                                        c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                                        c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                    <path class="st1" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                    </svg>
+                                <p class="text pinText">Pinned pages</p>
+                            </a>
+                        </div> 
+                    </div>
+                    <a class="pinAlert text whitetext opacity-0 hidden white-shadow">'n' webpages pinned</a>                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Container for main content -->
+    <div>
+        <div id="divheader">
+            <div>
+                <p class="subheading greytext">Personal Artworks</p>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div id="content">
+                <div class="art-container ">
+                    <div>
+                        <img class="image" src="images/art1.jpg" alt="first slide">
+                        <div class="flex-col margin-bottom-5">
+                            <p class="caption">Figure practice, digital (2021)</p>
+                            <div class="itemPinPageBtn">
+                                <svg class="cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                                c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                                c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/art1.jpg" pin="" fullpage="Figure practice" tag="Personal Art" pageUrl="art.html#art1"></a>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="art1" class="link-centre"></div>
+                </div>
+                <div class="art-container">
+                    <div>
+                        <img class="image" src="images/art2.jpg" alt="Second slide">
+                        <div class="flex-col margin-bottom-5">
+                            <p class="caption">Reunion of Twin Empyreans, digital (2022)</p>
+                            <div class="itemPinPageBtn">
+                                <svg class="cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                               c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                               c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/art2.jpg" pin="" fullpage="Reunion of Twin Empyreans" tag="Personal Art" pageUrl="art.html#art2"></a>
+                           </svg>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="art2" class="link-centre"></div>
+                </div>
+                <div class="art-container">
+                    <div>
+                        <img class="image" src="images/art3.JPG" alt="Third slide">
+                        <div class="flex-col margin-bottom-5">
+                            <p class="caption">For Tara and Kys, oil painting using handmade stamps (2018)</p>
+                            <div class="itemPinPageBtn">
+                                <svg class="cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                               c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                               c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/art3.jpg" pin="" fullpage="For Tara and Kys" tag="Personal Art" pageUrl="art.html#art3"></a>
+                           </svg>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="art3" class="link-centre"></div>
+                </div>
+                <div class="art-container">
+                    <div>
+                        <img class="image" src="images/art4.jpg" alt="Fourth slide">
+                        <div class="flex-col margin-bottom-5">
+                            <p class="caption">Distant Dream, digital (2021)</p>
+                            <div class="itemPinPageBtn">
+                                <svg class="cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                               c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                               c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/art4.jpg" pin="" fullpage="Distant Dream" tag="Personal Art" pageUrl="art.html#art4"></a>
+                           </svg>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="art4" class="link-centre"></div>
+                </div>
+                <div class="art-container">
+                    <div>
+                        <img class="image" src="images/makima-wip.jpg" alt="fifth slide">
+                        <div class="flex-col margin-bottom-5">
+                            <p class="caption">Final Appeal, digital (2023)(wip)</p>
+                            <div class="itemPinPageBtn">
+                                <svg class="cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                               c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                               c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/makima-wip.jpg" pin="" fullpage="Final Appeal" tag="Personal Art" pageUrl="art.html#art5"></a>
+                           </svg>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="art5" class="link-centre"></div>
+                </div>
+        </div>
+        <div class="column3">
+            <!-- external links -->
+            <p class="subheading2" id="artlinks"><strong>Find my work on</strong></p>
+            <div id="logoHolder" >
+                <div class="logoContainer">
+                    <a class="logoContainer" target="_blank" href="https://www.instagram.com/dangedrawn/?hl=en">
+                        <img class="logo" height="50px" width="50px" src="images/instagram-svgrepo-com.svg">
+                        <p id="artlinks" class="line text">Instagram</p>
+                    </a>
+                </div>
+                <div class="logoContainer">
+                    <a class="logoContainer" target="_blank" href="https://www.artstation.com/dangedrawn">
+                        <img class="artstation logo" height="30px" width="30px" src="images/art station logo.svg">
+                        <p id="artlinks" class="line text">Art Station</p>  
+                    </a>
+                </div>
+            </div>   
+            <br>
+            <br>   
+            <br>     
+       </div>
+       <!-- Comments Section -->
+       <div id="btmcontainer">
+           <br><br><br><br><hr class="line"><br>
+           <div class="flexcolumn-75"></div>
+               <div class="inline">
+                   <p class="subheading margin-20">Comments</p>
+                   <div class="inline">
+                       <div id="pinPageBtn" class="button-small margin-10">
+                            <div class="itemPinPageBtn">
+                                <svg id="pinCommentSection" class=" cursor-pointer pinWrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                                c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                                c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                <path class="st3-2" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                <a class="itemPinnedPageBtn" img="./images/artThumbnail.jpg" pin="" fullpage="Art Gallery" tag="Personal Art" pageUrl="art.html"></a>
+                                </svg>
+                            </div>
+                           <p class="test123 caption margin-10">Pin Page</p>
+                       </div>
+                       <a id="mailBtn" href="" class="icon-common margin-10">
+                           <svg class="icon-common-wrap icon-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 520 383" style="enable-background:new 0 0 520 383;" xml:space="preserve">
+                           <path class="icon-common-fill" d="M449,0H71C32,0,0,32,0,71v241c0,39,32,71,71,71h378c39,0,71-32,71-71V71C520,32,489,0,449,0L449,0z M71,42h378
+                           c16,0,29,13,29,29v10L277,221c-9,6-26,6-35,0L41,81V71C42,55,55,42,71,42z M449,342H71c-16,0-29-13-29-29V132l177,123
+                           c12,8,27,12,42,12c15,0,30-4,42-12l176-123v180C479,329,465,342,449,342z"/>
+                           </svg>
+                       </a>
+                       <div class="margin-10">
+                           <div id="like-container">
+                               <svg id="likeBtn"class="icon-common-wrap icon-margin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                   viewBox="0 0 418.1 462" style="enable-background:new 0 0 418.1 462;" xml:space="preserve">
+                                   <g id="Layer_1">
+                                       <path class="icon-common-fill" d="M21,165c-12,0-21,9-21,21v223c0,12,9,21,21,21s21-9,21-20V186C42,174,33,165,21,165z M380,199c-19-22-58-26-96-30
+                                           c-18-2-43-4-50-9s-11-35-13-53C215,62,206,0,148,0c-16,0-34,5-55,16c-7,4-11,11-11,19v374c0,9,6,18,15,20c5,2,120,33,204,33
+                                           c33,0,58-5,75-16c21-14,35-38,40-73C425,312,403,225,380,199z M375,368c-2,15-8,35-21,43c-5,3-20,9-53,9c-62,0-144-19-178-27V48
+                                           c12-5,20-6,25-6c18,0,24,22,31,71c4,34,9,67,31,82c16,10,40,13,69,16c24,3,61,7,70,17C361,241,383,312,375,368z"/>
+                                   </g>
+                                   <g id="Layer_2">
+                                   <path class="st0" d="M375,368c-2,15-8,35-21,43c-5,3-20,9-53,9c-62,0-144-19-178-27V48c12-5,20-6,25-6c18,0,24,22,31,71
+                                       c4,34,9,67,31,82c16,10,40,13,69,16c24,3,61,7,70,17C361,241,383,312,375,368z"/>
+                               </g>
+                               </svg>
+                               <a id="likeCount-container"class="unselect margin-0 text greytext" value="" click=false></a>
+                           </div>
+                       </div>
+                   </div>
+                   <div>
+                   </div>
+               </div>
+               <div class="comment-container">
+                   <div class="comment-input-section">
+                       <div>
+                           <textarea required id="comment-input" name="message" rows="6"  placeholder="Write message here:"></textarea><br>
+                           <div class="space-between commentBtn-input align-center">
+                               <input class="input-field-name" type="email" id="comment-input" name="email" placeholder="Name">
+                               <input id="userComment-submit" class="input-field-btn  btn-black-small bold" type="submit" value="Submit">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="comments-published">
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+<!-- Scripts -->
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="pinCommentLikes.js"></script>
+<script type="text/javascript" src="pinItems.js"></script>
+</body>
+</html>
