@@ -111,3 +111,32 @@ td {
     transform: translateX(-55%);
     transition: all 2s ease-in-out;
 }
+
+@media screen and (max-width: 500px){
+    .flex1{
+        flex-flow: column nowrap;
+    }
+    #divheader{
+        width: 75vw;
+        margin: 0 auto;
+    }
+    #image1{
+        width: 75vw;
+        height: unset;
+    }
+    .bannerImg{
+        height: unset;
+        width: 75vw;
+    }
+    .axo{
+        margin: 0 auto;
+        width: 100%
+    }
+    .section{
+        width: 100%;
+        margin-right: unset;
+    }
+    .para{
+        padding-bottom: 32px;
+    }
+}

@@ -141,3 +141,109 @@ td {
 .centre-text{
     text-align: center;
 }
+
+@media screen and (max-width: 500px){
+    #divheader{
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .flex1{
+        flex-flow: column nowrap;
+        width: 75vw;
+        align-items: center;
+    }
+    #divheader{
+        width: 75vw;
+        margin: 0 auto;
+    }
+    #image1{
+        width: 75vw;
+        height: unset;
+    }
+    .bannerImg{
+        height: unset;
+        width: 75vw;
+    }
+    .axo{
+        margin: 0 auto;
+        width: 100%
+    }
+    .section{
+        width: 100%;
+        margin-right: unset;
+    }
+    .para{
+        padding-bottom: 32px;
+    }
+    #container{
+        width: 75vw;
+        margin: 0 auto;
+    }
+    .flexcolumn{
+        width: 75vw;
+    }
+    table{
+        width: 75vw;
+    }
+    #image1{
+        margin: 0 auto;
+        margin-left: unset;
+    }
+    #image1div{
+        width: 75vw;
+        margin: 0 auto;
+    }
+    .bannerImg1{
+        height: unset;
+        width: 100vw;
+    }
+    figcaption{
+        width: 75vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .fig-cap{
+        margin: 0 auto;
+    }
+    .grid3{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 16px;
+    }
+    table{
+        padding-right: 15vw;
+        overflow: hidden;
+    }
+    table td{
+        font-size: 14px;
+    }
+    .grid3 .text-margin{
+        font-size: 12px;
+    }
+    .flex4{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .flex2{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+    .axo{
+        height: unset;
+        width: 50vw;
+        margin: 0 auto;
+    }
+    .fig-cap{
+        width: 75vw;
+    }
+    .bannerImg3{
+        width: 75vw;
+        height: unset;
+        margin: 0 auto;
+    }
+}

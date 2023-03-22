@@ -93,9 +93,9 @@
 /* Buttons */
 .btn-black {
     border: 2px solid rgb(42, 42, 42);
-    width: 100px;
-    height: 16px;
-    padding: 10px 15px 10px 15px;
+    width: 124px;
+    height: 32px;
+    padding: 20px 15px 20px 15px;
     margin: 0 auto;
     font-weight: bold;
     text-decoration: none;
@@ -109,16 +109,17 @@
 .btn-black:hover {
     border: 2px solid rgb(42, 42, 42);
     background-color: rgb(42, 42, 42);
-    padding: 10px 15px 10px 15px;
-    font-weight: bold;
-    text-decoration: none;
     border-radius: 15px;
     color: white;
-    display: flex;
-    align-items: center;
+  
 }
 .btn-black p {
     margin: 0;
+}
+#banner li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 8px;
 }
 /* Arrow */
 .arrowPath{
@@ -164,3 +165,70 @@ ul {
    }
    }
    
+
+
+   @media screen and (max-width: 500px){
+    #landing{
+        padding-top: unset;
+    }
+    #container{
+        height: unset;
+        min-height: 85vh;
+    }
+    #architext{
+        font-size: 12px;
+    }
+    #artContainer > p {
+        font-size: 18px;
+    }
+    #archiContainer > p {
+        font-size: 18px;
+    }
+    #architext{
+        font-size: 12px;
+    }
+    #webContainer > p {
+        font-size: 18px;
+    }
+    li{
+        text-align: center;
+        list-style: none;
+    }
+    #weblogo{
+        max-width: 70px;
+    }
+    #archilogo{
+        max-width: 70px;
+    }
+    #artlogo{
+        max-width: 70px;
+    }
+    #banner{
+        height: 400px;
+    }
+    #webContainer {
+        grid-template-rows: 150px auto auto 1fr
+    }
+    #archiContainer {
+        grid-template-rows: 150px auto auto 1fr
+    }
+    #artContainer {
+        grid-template-rows: 150px auto auto 1fr
+    }
+
+    .btn-black{
+        width: 70%;
+        padding: 8px 8px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .seeMore > p {
+        font-size: 8px;
+        margin-right: 8px;
+    }
+    .arrowIcon{
+        height: 15px;
+        padding-left: unset;
+    }
+   }

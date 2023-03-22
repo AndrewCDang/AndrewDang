@@ -1,8 +1,9 @@
  
 /* Home container */
 .svg{
-    width: 30vw;
-    max-height: 50vw;
+    width: 25vw;
+    max-height: 40vw;
+    transform: translateY(-5%);
 }
 #container {
     background-color: white;
@@ -25,6 +26,7 @@
 }
 .yellowBackground{
     padding: 10px;
+    border-radius: 8px 8px 8px 8px ;
 }
 .yellowBackground p{
     margin: 0;
@@ -60,9 +62,9 @@
 form {
     display: flex;
     flex-direction: column;
-    border: 1px solid darkgray;
     border-top: none;
     padding: 20px;
+    padding-left: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: visible;
@@ -82,10 +84,29 @@ label {
 #email {
     margin-top: 10px;
 }
-.Yeseva{
-    font-family: 'Yeseva One', cursive;
+.email-input{
+    flex: 1;
+    margin-right: 8px;
 }
+.form-submit{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
 /* Animating Message lines upon input field update */
+
+input{
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+}
+textarea{
+    resize: none;
+    border-radius: 4px;
+    margin-top: 8px;
+}
 .msgLine{
     fill: white;
     transform: scaleX(0.05);
@@ -118,20 +139,26 @@ label {
     flex-flow: row nowrap;
     align-items: flex-end;
     padding-bottom: 10px;
+    transform: scale(0.9);
 }
 .contact-item{
     padding-right: 10px;
 }
 .submit{
     width: 30%;
+    background-color: white;
+    transform: scale(0.8);
 }
 /* Socials */
 .network-banner {
     display: inline-block;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0;
     background-color: #FF5678;
-   ;
     color: white;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
+    transform: scale(0.8);
+}
+.column3{
+    transform: translateX(-10px);
 }

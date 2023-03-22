@@ -71,3 +71,26 @@
 .itemPinPageBtn{
     margin-left: 0;
 }
+
+
+@media screen and (max-width: 500px){
+    .art-container{
+        padding-bottom: 0;
+        padding-top:5vh;
+    }
+    .image{
+        width: 60vw;
+    }
+    .link-centre{
+        position: unset;
+    }
+
+    .art-container :first-child{
+        padding-top: 0px!important;
+    }
+    #divheader{
+        height: unset;
+
+    }
+
+}

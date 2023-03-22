@@ -98,3 +98,11 @@ img{
 .opacity-full{
     opacity: 1;
 }
+.duddingston-text{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px){
+
+}

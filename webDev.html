@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Andrew Dang</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="webDev.css">
+</head>
+<body>
+    <!-- Invisible values -->
+    <a id="pageInfo" class="hidden" page="architecture" fullpage="Architecture Content" tag="Architecture Content" backgroundCol="" imageUrl=""></a>
+    <!-- Navbar -->
+    <div id="nav-container">
+        <nav class="navbar">
+            <div id="navlogo">
+                <ul class="navbar-items">
+                    <li>
+                        <a href="index.html">
+                            <svg id="svg-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 627.1 404.46">
+                                <path d="M0,403.58c.66,.44,.8,.61,.94,.61,35.32,.11,70.64,.24,105.95,.2,1.19,0,2.95-1.39,3.47-2.56,2.11-4.7,3.73-9.61,5.72-14.36,13.67-32.71,27.34-65.42,41.1-98.09,15.63-37.11,31.31-74.19,47.07-111.24,2.87-6.74,6.24-13.27,9.81-20.8,1.02,2.06,1.49,2.91,1.87,3.81,12.79,30.55,25.65,61.07,38.32,91.66,12.29,29.66,24.43,59.39,36.57,89.11,8.05,19.71,16.09,39.42,23.85,59.25,1.38,3.54,3.68,3.22,6.3,3.22,32.16,.03,64.32,.05,96.48,.07,1.59,0,3.18,0,5.11,0-.27-1.37-.3-2.03-.53-2.62-9.62-24.28-19-48.66-28.95-72.81-18.94-45.99-38.04-91.91-57.36-137.74-16.54-39.25-33.49-78.32-50.25-117.48-9.96-23.26-19.91-46.51-29.83-69.79-1.04-2.44-2.09-3.99-5.34-3.97-24.16,.19-48.32,.16-72.48,.07-2.77-.01-4.13,.9-5.16,3.47-3.53,8.81-7.23,17.55-11.01,26.24-17.6,40.43-35.22,80.85-52.9,121.24-12.13,27.72-24.5,55.33-36.53,83.1-17.71,40.9-35.24,81.89-52.76,122.87-6.59,15.41-12.94,30.92-19.47,46.53Z"/>
+                                <path d="M298.25,.19c2.71,0,4.34,0,5.98,0,38.5,0,77.01-.51,115.49,.14,38.18,.64,74.36,9.68,107.84,29.15,24.92,14.49,46.17,33.13,63.28,56.44,18.23,24.85,29.92,52.61,34.1,83.56,5.96,44.06-.39,86.19-19.44,126.07-14.28,29.89-35.31,54.21-61.94,73.66-23.67,17.28-49.9,28.22-78.03,35-3,.72-4.56-.12-5.71-3.08-10.47-26.92-21.05-53.8-31.59-80.69-.19-.47-.36-.95-.53-1.43-2.46-7.26-2.16-7.63,5.47-8.97,20.1-3.5,39.06-10,55.29-23.02,21.88-17.54,31.51-41.69,34.99-68.94,2.05-16.08,1.95-32.17-1.96-47.98-5.63-22.79-18.12-40.44-38.63-51.81-18.56-10.29-38.8-14.28-59.54-14.96-25.97-.85-51.97-.59-77.96-.59-3.9,0-5.62-1.09-7.2-4.98-9.94-24.59-20.36-48.99-30.51-73.5-3.15-7.61-6-15.35-9.4-24.09Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="translate-right" class="nav-link">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="noWrap nav-link webBtn" href="webDev.html">Web-Dev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link archBtn"href="architecture.html">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link artBtn" href="art.html">Art</a>
+                    </li>
+                    <li class="nav-item moreButton">
+                        <a class="nav-link moreBtn">More</a>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 203 364" style="enable-background:new 0 0 203 364;" xml:space="preserve">
+                            <path class="moreIcon" d="M22,364c-5,0-11-2-15-6c-8-8-8-21,0-30l144-146L6,36c-8-8-8-21,0-30c8-8,21-8,30,0l161,161c4,4,6,9,6,15s-2,11-6,15L37,358C32,362,27,364,22,364z"/>
+                        </svg>
+                    </li>
+                    <div class="dropdown-wrap">
+                        <div class="dropdownContainer">
+                            <a class="dropdownItm contactBtn"href="contactMe.html">
+                                <svg class="contactWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 528 468" style="enable-background:new 0 0 528 468;" xml:space="preserve">
+                                    <path class="contactIcon" d="M413,420c-25,0-50-15-72-42c-1,0-1,0-2,0c-104,0-189-85-189-189S235,0,339,0s189,85,189,189c0,51-20,99-56,134
+                                    c4,31-1,58-15,76C446,412,430,420,413,420L413,420L413,420z M352,335c7,0,13,3,17,9c18,25,34,34,44,34c5,0,8-2,11-5c8-10,10-30,5-52
+                                    c-2-8,1-16,7-21c32-28,50-68,50-110c0-81-66-147-147-147s-147,66-147,147s66,147,147,147c3,0,7,0,10,0C350,335,352,335,352,335
+                                    L352,335z M96,468c-5,0-11-1-15-3c-24-8-43-37-37-84C16,353,0,314,0,274c0-64,38-120,97-143c11-4,23,1,27,12c4,11-1,23-12,27
+                                    c-42,17-70,58-70,104c0,32,14,63,38,84c1,1,2,2,3,3c4,5,6,11,4,18c-6,31,3,45,8,47c6,2,19-6,30-29c4-8,12-12,20-12c21,1,43-3,62-14
+                                    c10-6,23-2,29,8c6,10,2,23-8,29c-22,12-47,19-72,19C137,457,114,468,96,468L96,468z"/>
+                                </svg>
+                                <p class="contactText text">Contact me</p>
+                            </a>
+                            <a class="dropdownItm pinBtn"href="pinned.html">
+                                <svg class="navPinWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
+                                    <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
+                                        c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
+                                        c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
+                                    <path class="st1" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
+                                    </svg>
+                                <p class="text pinText">Pinned pages</p>
+                            </a>
+                        </div> 
+                    </div>
+                    <a class="pinAlert text whitetext opacity-0 hidden white-shadow">'n' webpages pinned</a>                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Body Content -->
+    <div class="body-container">
+        <div class="content-container">
+            <a target="_blank" href="https://andrewcdang.github.io/HangMan/">
+                <div class="main-project">
+                    <div class="main-banner">
+                        <p class="subheading2">Hang Man</p>
+                        <p>React /  Toolkit  /  JS  /  HTML  /  CSS</p>
+                    </div>
+                    <video class="vid-hang video" muted="true" loop width="980" height="530">
+                        <source src="./videos/hangManVideo.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                      <div class="white-bg-1"></div>
+                      <svg class="star-feature" width="800px" height="800px" viewBox="-5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <title>star</title>
+                        <path d="M17.48 26.6c-0.12 0-0.28-0.040-0.4-0.080l-5.96-3.12-5.96 3.12c-0.28 0.16-0.64 0.12-0.88-0.080s-0.4-0.52-0.32-0.8l1.12-6.64-4.84-4.72c-0.24-0.24-0.32-0.56-0.2-0.84 0.080-0.32 0.36-0.52 0.68-0.56l6.68-0.96 3-6.040c0.16-0.28 0.44-0.48 0.76-0.48s0.6 0.2 0.76 0.48l3 6.040 6.68 0.96c0.32 0.040 0.56 0.28 0.68 0.56 0.080 0.32 0 0.64-0.2 0.84l-4.92 4.72 1.12 6.64c0.040 0.32-0.080 0.64-0.32 0.8-0.16 0.12-0.32 0.16-0.48 0.16zM2.64 14.28l3.92 3.84c0.2 0.2 0.28 0.48 0.24 0.76l-0.92 5.4 4.84-2.56c0.24-0.12 0.52-0.12 0.76 0l4.84 2.56-0.92-5.4c-0.040-0.28 0.040-0.56 0.24-0.76l3.92-3.84-5.44-0.8c-0.28-0.040-0.52-0.2-0.64-0.44l-2.44-4.92-2.44 4.92c-0.12 0.24-0.36 0.4-0.64 0.44l-5.32 0.8z"></path>
+                    </svg>
+                </div>
+            </a>
+            <div class="side-content">
+                <div class="project-row">
+                    <a target="_blank" href="https://andrewcdang.github.io/where-is-name-from-/">
+                        <div class="project-container">
+                            <div class="project-banner">
+                                <p class="subheading2 bold">Where is < name > from?</p>
+                                <p>React  /  JS  /  HTML  /  CSS</p>
+                            </div>
+                            <video class="vid-where video" muted="true" loop width="980" height="530">
+                                <source class="" src="./videos/whereIsNameFromVideo.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              </video>
+                              <div class="white-bg"></div>
+                              <svg class="star-feature-2" width="800px" height="800px" viewBox="-5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <title>star</title>
+                                <path d="M17.48 26.6c-0.12 0-0.28-0.040-0.4-0.080l-5.96-3.12-5.96 3.12c-0.28 0.16-0.64 0.12-0.88-0.080s-0.4-0.52-0.32-0.8l1.12-6.64-4.84-4.72c-0.24-0.24-0.32-0.56-0.2-0.84 0.080-0.32 0.36-0.52 0.68-0.56l6.68-0.96 3-6.040c0.16-0.28 0.44-0.48 0.76-0.48s0.6 0.2 0.76 0.48l3 6.040 6.68 0.96c0.32 0.040 0.56 0.28 0.68 0.56 0.080 0.32 0 0.64-0.2 0.84l-4.92 4.72 1.12 6.64c0.040 0.32-0.080 0.64-0.32 0.8-0.16 0.12-0.32 0.16-0.48 0.16zM2.64 14.28l3.92 3.84c0.2 0.2 0.28 0.48 0.24 0.76l-0.92 5.4 4.84-2.56c0.24-0.12 0.52-0.12 0.76 0l4.84 2.56-0.92-5.4c-0.040-0.28 0.040-0.56 0.24-0.76l3.92-3.84-5.44-0.8c-0.28-0.040-0.52-0.2-0.64-0.44l-2.44-4.92-2.44 4.92c-0.12 0.24-0.36 0.4-0.64 0.44l-5.32 0.8z"></path>
+                            </svg>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://andrewcdang.github.io/Awwards_clone/">
+                        <div class="project-container">
+                            <div class="project-banner">
+                                <p class="subheading2 bold">Awwards Precedent Study</p>
+                                <p>React /  JS  /  HTML  /  CSS</p>
+                            </div>
+                            <video class="vid-where video" muted="true" loop width="980" height="530">
+                                <source class="" src="./videos/awwardsCloneVideo.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              </video>
+                              <div class="white-bg-linear"></div>
+                              <svg class="star-feature-2" width="800px" height="800px" viewBox="-5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <title>star</title>
+                                <path d="M17.48 26.6c-0.12 0-0.28-0.040-0.4-0.080l-5.96-3.12-5.96 3.12c-0.28 0.16-0.64 0.12-0.88-0.080s-0.4-0.52-0.32-0.8l1.12-6.64-4.84-4.72c-0.24-0.24-0.32-0.56-0.2-0.84 0.080-0.32 0.36-0.52 0.68-0.56l6.68-0.96 3-6.040c0.16-0.28 0.44-0.48 0.76-0.48s0.6 0.2 0.76 0.48l3 6.040 6.68 0.96c0.32 0.040 0.56 0.28 0.68 0.56 0.080 0.32 0 0.64-0.2 0.84l-4.92 4.72 1.12 6.64c0.040 0.32-0.080 0.64-0.32 0.8-0.16 0.12-0.32 0.16-0.48 0.16zM2.64 14.28l3.92 3.84c0.2 0.2 0.28 0.48 0.24 0.76l-0.92 5.4 4.84-2.56c0.24-0.12 0.52-0.12 0.76 0l4.84 2.56-0.92-5.4c-0.040-0.28 0.040-0.56 0.24-0.76l3.92-3.84-5.44-0.8c-0.28-0.040-0.52-0.2-0.64-0.44l-2.44-4.92-2.44 4.92c-0.12 0.24-0.36 0.4-0.64 0.44l-5.32 0.8z"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-row">
+                    <a target="_blank" href="https://andrewcdang.github.io/To-do-List/">
+                        <div class="project-container">
+                            <div class="project-banner">
+                                <p class="subheading2 bold">To-do list</p>
+                                <p>React / Redux Toolkit  /  JS  /  HTML  /  CSS</p>
+                            </div>
+                            <video class="vid-to-do video" muted="true" loop width="980" height="530">
+                                <source  src="./videos/toDoListVideo.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              </video>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://andrewcdang.github.io/Book-Catalogue/">
+                        <div class="project-container">
+                            <div class="project-banner">
+                                <p class="subheading2 bold">Book Catalogue (early project)</p>
+                                <p> JS  /  HTML  /  CSS</p>
+                            </div>
+                            <video class="vid-where video" muted="true" loop width="980" height="530">
+                                <source class="" src="./videos/bookCatalogueVideo.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              </video>
+                              <div class="white-bg-2"></div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        </div>
+
+    </div>
+    <!-- <p class="subheading button yellow"><a class="button-link" href="duddingston.html">Design</a></p> -->
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript" src="webDev.js"></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 /* Universal font family */
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 .Yeseva{
     font-family: 'Yeseva One', cursive;
@@ -119,6 +120,9 @@ body {
     margin: 0px 10px;
 }
 /* Nav-Bar */
+#svg-logo{
+    width:36px
+}
 #navlogo {
     display: flex;
     flex-flow: row nowrap;
@@ -217,7 +221,7 @@ p > #symbol {
     display: block;
     position: absolute;
     top: calc(4vh + 16px);
-    left: calc(5vw + 320px);
+    left: calc(5vw + 250px);
     background: rgba(256,256,256,1);
     box-shadow: -3px 5px 3px rgba(0, 0, 0, 0.2);
     border-bottom-right-radius: 10px;
@@ -231,7 +235,7 @@ p > #symbol {
 .pinAlert{
     position: absolute;
     top: calc(4vh + 120px);
-    left: calc(5vw + 340px);
+    left: calc(5vw + 270px);
 }
 .dropdown-open{
     max-height: 400px;
@@ -554,4 +558,41 @@ input.input-field-btn:hover{
 }
 .unselect{
     user-select: none;
+}
+
+@media screen and (max-width: 500px){
+    .nav-item > a {
+        font-size: 14px;
+    }
+    .moreButton{
+        display: none;
+    }
+    .navbar{
+        justify-content: center;
+        padding-top: 32px;
+    }
+    body{
+        overflow: hidden;
+    }
+    html{
+        overflow: hidden;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #btmcontainer{
+        display: none;
+    }
+    .itemPinPageBtn{
+        display: none;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .subheading2{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 12px;
+    }
 }
