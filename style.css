@@ -1,8 +1,9 @@
 /* Universal font family */
 * {
-    font-family: sans-serif;
+    font-family: 'Urbanist', sans-serif;
     box-sizing: border-box;
 }
+
 .Yeseva{
     font-family: 'Yeseva One', cursive;
 }
@@ -70,13 +71,13 @@ body {
     vertical-align: top;
     margin: 0;
 }
+
 #nav-container {
     background-image: url("images/linear-background.svg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center center;
-    width: 90vw;
-    padding: 0 5vw 0 5vw;
+    padding: 0 10vw 0 10vw;
     margin: 0 auto;
     height: 15vh;
     z-index: 3;
@@ -209,7 +210,12 @@ p > #symbol {
 }
 .hidden{
     visibility: hidden;
-    transition: all 0.2s;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+}
+.show{
+    visibility: visible!important;
+    opacity: 1;
 }
 .overflow-hidden{
     overflow: hidden;
@@ -269,6 +275,11 @@ p > #symbol {
     width: 20px;
     height: auto;
     margin-right: 10px;
+}
+.contactBtn:hover{
+    color: black;
+    text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+    transition: all 0.3s ease-in-out;
 }
 .contactBtn:hover .contactText {
     color: black;
@@ -559,10 +570,21 @@ input.input-field-btn:hover{
 .unselect{
     user-select: none;
 }
+@media screen and (max-width: 400px){
+    .navbar-items > li{
+        padding-right: 16px;
+    }
+}
 
 @media screen and (max-width: 500px){
     .nav-item > a {
         font-size: 14px;
+    }
+    .navbar-items > li:nth-child(2){
+        display: none;
+    }
+    .navbar-items > li:last-child{
+        padding-right: unset;
     }
     .moreButton{
         display: none;

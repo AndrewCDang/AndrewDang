@@ -33,8 +33,15 @@
     align-items: center;
     padding-top: 10vh;
 }
+.cv-button{
+    padding: 12px 24px 12px 24px;
+    border: 1.5px solid darkgray;
+    display: inline-block;
+    border-radius: 12px;
+
+}
 #hometext {
-    width: 30vw;
+    min-width: 500px;
 }
 #secondpara {
     padding-top: 3vh;
@@ -159,17 +166,30 @@ ul {
    #landing{
     display: flex;
     flex-flow: column-reverse;
+    align-items: flex-start;
+    height: 80vh;
    }
    #hometext{
         width: 100%;
    }
    }
-   
-
-
    @media screen and (max-width: 500px){
     #landing{
         padding-top: unset;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+
+    }
+    #hometext{
+        min-width: unset;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 18vh;
+    }
+    .hyperlink2{
+        margin: 0 auto;
     }
     #container{
         height: unset;
@@ -215,7 +235,6 @@ ul {
     #artContainer {
         grid-template-rows: 150px auto auto 1fr
     }
-
     .btn-black{
         width: 70%;
         padding: 8px 8px;
@@ -224,11 +243,24 @@ ul {
 
     }
     .seeMore > p {
-        font-size: 8px;
+        font-size: 10px;
         margin-right: 8px;
     }
     .arrowIcon{
         height: 15px;
         padding-left: unset;
     }
+    .home-text{
+        font-size: 20px;
+    }
    }
+
+   #anim{
+    width: 40vw;
+    max-width: 500px;
+    min-width: 300px
+   }
+   .home-text{
+    white-space: nowrap;
+   }
+ 

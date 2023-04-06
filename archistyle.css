@@ -52,12 +52,13 @@
 }
 /* Title Cards */
 .title-card {
-    width: 500%;
+    width: 450%;
     height: 100%;
     transition: all 1s;
 }
+
 .content-container:hover .title-card{
-    width: 100%;
+    width: 65%;
 }
 .content-container:hover .textBlock{
     overflow: visible;

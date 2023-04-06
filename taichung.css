@@ -1,12 +1,32 @@
 /* Setting content extents relative to screen */
 #container {
     background-color: white;
-    width: 75vw;
+    width: 100vw;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
+    padding-bottom: 10vh;
+    margin-top: 40vh;
+    box-shadow: 0px -10px 24px rgba(0, 0, 0, 0.3);
 }
 /* Setting flex box to organise content in a row */
+body{
+    position: relative;
+    overflow: hidden;
+    overflow-y:scroll
+}
+.bannerIntro{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    z-index: -1;
+}
+table{
+    width: 50%;
+}
 .flex1 {
     display: flex;
     flex-flow: row nowrap;
@@ -176,10 +196,7 @@ td {
     .para{
         padding-bottom: 32px;
     }
-    #container{
-        width: 75vw;
-        margin: 0 auto;
-    }
+   
     .flexcolumn{
         width: 75vw;
     }

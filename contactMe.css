@@ -17,7 +17,7 @@
     display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center
 }
 .flex-col{
     display: flex;
@@ -138,11 +138,14 @@ textarea{
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-end;
-    padding-bottom: 10px;
-    transform: scale(0.9);
+    margin-bottom: 8px;
 }
 .contact-item{
-    padding-right: 10px;
+    margin-right: 10px;
+}
+#logoHolder{
+    margin-top: 16px;
+    margin-left: 16px;
 }
 .submit{
     width: 30%;
@@ -157,8 +160,4 @@ textarea{
     background-color: #FF5678;
     color: white;
     border-radius: 10px;
-    transform: scale(0.8);
-}
-.column3{
-    transform: translateX(-10px);
 }

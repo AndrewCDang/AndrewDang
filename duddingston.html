@@ -8,8 +8,11 @@
         <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="duddingstonstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></head>
+
 </head>
 <body>
+    <img class="bannerIntro" src="images\exterior-render.jpg">
     <!-- Invisible values -->
     <a id="pageInfo" class="hidden" page="duddingston" fullpage="Duddingston Library" tag="Year 4 | Design" backgroundCol="blue-frost" imageUrl="images\exterior-render.jpg"></a>
     <!-- Navbar -->
@@ -38,73 +41,41 @@
                     <li class="nav-item">
                         <a class="nav-link artBtn" href="art.html">Art</a>
                     </li>
-                    <li class="nav-item moreButton">
-                        <a class="nav-link moreBtn">More</a>
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 203 364" style="enable-background:new 0 0 203 364;" xml:space="preserve">
-                            <path class="moreIcon" d="M22,364c-5,0-11-2-15-6c-8-8-8-21,0-30l144-146L6,36c-8-8-8-21,0-30c8-8,21-8,30,0l161,161c4,4,6,9,6,15s-2,11-6,15L37,358C32,362,27,364,22,364z"/>
-                        </svg>
-                    </li>
-                    <div class="dropdown-wrap">
-                        <div class="dropdownContainer">
-                            <a class="dropdownItm contactBtn"href="contactMe.html">
-                                <svg class="contactWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 528 468" style="enable-background:new 0 0 528 468;" xml:space="preserve">
-                                    <path class="contactIcon" d="M413,420c-25,0-50-15-72-42c-1,0-1,0-2,0c-104,0-189-85-189-189S235,0,339,0s189,85,189,189c0,51-20,99-56,134
-                                    c4,31-1,58-15,76C446,412,430,420,413,420L413,420L413,420z M352,335c7,0,13,3,17,9c18,25,34,34,44,34c5,0,8-2,11-5c8-10,10-30,5-52
-                                    c-2-8,1-16,7-21c32-28,50-68,50-110c0-81-66-147-147-147s-147,66-147,147s66,147,147,147c3,0,7,0,10,0C350,335,352,335,352,335
-                                    L352,335z M96,468c-5,0-11-1-15-3c-24-8-43-37-37-84C16,353,0,314,0,274c0-64,38-120,97-143c11-4,23,1,27,12c4,11-1,23-12,27
-                                    c-42,17-70,58-70,104c0,32,14,63,38,84c1,1,2,2,3,3c4,5,6,11,4,18c-6,31,3,45,8,47c6,2,19-6,30-29c4-8,12-12,20-12c21,1,43-3,62-14
-                                    c10-6,23-2,29,8c6,10,2,23-8,29c-22,12-47,19-72,19C137,457,114,468,96,468L96,468z"/>
-                                </svg>
-                                <p class="contactText text">Contact me</p>
-                            </a>
-                            <a class="dropdownItm pinBtn"href="pinned.html">
-                                <svg class="navPinWrap" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                        viewBox="0 0 263.1 490" style="enable-background:new 0 0 263.1 490;" xml:space="preserve">
-                                    <path d="M258.1,257l-50-79l28-153c1-6,0-12-4-17s-10-8-16-8h-170c-6,0-12,3-16,8s-6,11-4,17l29,153l-52,81c-4,6-4,15-1,21
-                                        c4,7,11,11,18,11h90v178c0,12,9,21,21,21s21-9,21-21V291h90c12,0,21-9,21-21C263.1,265,260.1,260,258.1,257z M59.1,249l35-55
-                                        c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55L59.1,249z"/>
-                                    <path class="st1" d="M94.1,194c3-4,4-10,3-15l-26-137h121l-26,136c-1,5,0,11,3,15l35,55l-145,1L94.1,194z"/>
-                                    </svg>
-                                <p class="text pinText">Pinned pages</p>
-                            </a>
-                        </div> 
-                    </div>
-                    <a class="pinAlert text whitetext opacity-0 hidden white-shadow">'n' webpages pinned</a>                   
+                    <li class="nav-item">
+                        <a class="dropdownItm contactBtn"href="contactMe.html">Contact</a>
+                    </li>                 
                 </ul>
             </div>
         </nav>
     </div>
 
-    <!-- Body Container -->
-   <div id="background-container">
-    <div id="divheader">
+
+    <!-- Body Container -->   
+    <div id="container">
         <div>
             <p class="subheading greytext">Yr4 Design | Duddingston Library</p>
         </div>
-    </div>
-    <div id="container">
         <div class="flex1">
             <div class="flexcolumn">
-                <div class="subheading">About</div>
+                <div class="bold text">About</div>
                 <br>
                 <!-- Table -->
                 <table>
                     <tr>
-                        <td class="table1 bold">Location</td>
-                        <td>Edinburgh</td>
+                        <td class="table1 bold text">Location</td>
+                        <td class="text">Edinburgh</td>
                     </tr>
                     <tr>
-                        <td class="table1 bold">Type</td>
-                        <td>Civic/Educational</td>
+                        <td class="table1 bold text">Type</td>
+                        <td class="text">Civic/Educational</td>
                     </tr>
                     <tr>
-                        <td class="table1 bold">Construction</td>
-                        <td>CLT Portal frame, rammed earth walls</td>
+                        <td class="table1 bold text">Construction</td>
+                        <td class="text">CLT Portal frame, rammed earth walls</td>
                     </tr>
                     <tr>
-                        <td class="table1 bold">Nomination</td>
-                        <td>Mcckay Award</td>
+                        <td class="table1 bold text">Nomination</td>
+                        <td class="text">Mcckay Award</td>
                     </tr>
                 </table>
                 <br>
@@ -122,9 +93,6 @@
                     <p id="intro" class="quoteCite text">- The Scottish Government (2015)</p>
                 </blockquote>
                 <p id="intro" class="text">The master plan also aimed to connect the community by strengthening existing allotments and creating new social spaces and routes in undeveloped areas. The main goal was to create a food system that could provide fresh produce for Duddingston's school meals and teach sustainable food systems to the students. The project would also expand Duddingston's existing growing schemes by adding more space and facilities for teaching, buying and selling local produce</p>
-            </div>
-            <div id="image1div">
-                <img id="image1" src="images\exterior-render.jpg">
             </div>
         </div>
         <br>
@@ -166,7 +134,7 @@
                 <p class="text para">The project was a library situated on the North side of the master plan. It faced a new public square on one side and calm green allotments on the other. The building featured a stereomic element, using rammed earth construction to connect the raw exterior environment with the comforts of the interior space. Expressive timber portal frames spanned over the main library space for flexibility and openness. The facade was clad in brick, relating to the surrounding townscape and protecting the moisture-sensitive rammed earth from erosion.</p>
             </div>
         </div>
-        <!-- Comments Section -->
+        <!-- Comments Section
         <div id="btmcontainer">
             <br><br><br><br><hr class="line"><br>
             <div class="flexcolumn-75"></div>
@@ -230,8 +198,7 @@
                     <div class="comments-published">
                     </div>
                 </div>
-            </div>
-    </div>
+            </div> -->
 <script type="text/javascript" src="common.js"></script>
 <script type="text/javascript" src="pinCommentLikes.js"></script>
 <script type="text/javascript" src="pinItems.js"></script>
